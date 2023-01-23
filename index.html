@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to La serviette !</title>
+</head>
+<body>
+    <section id="latest">
+        <h1>Welcome to la Serviette</h1>
+
+        <div class="card">
+            <h2>lastest news:</h2>
+            <div class="carouselle">
+                <div class="carouselle-card">
+                    <h3>{{ restaurant.name }}</h3>
+                    <img v-bind:src="#" alt="">
+                    <div class="comment">{{ restaurant.comment}}</div>
+                    <div class="class">{{ restaurant.class }}</div>
+                    <div class="note">{{ restaurant.note }}</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="info-area">
+        <div class="card">
+            <h2>Your favorite</h2>
+            
+        </div>
+    </section>
+    <footer></footer>
+</body>
+</html>
